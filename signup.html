@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(52, 56, 54);
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .signup{
+            background-color: rgb(136, 169, 158);
+            border-radius: 10px;
+            border-color: black;
+            padding: 30px;
+            width: 400px;
+        }
+        h1{
+            text-align: center;
+            color: rgb(48, 63, 55);
+            margin-bottom: 40px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        label{
+            color: rgb(48, 63, 55);
+        }
+        input{
+            border-radius: 8px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            background-color: rgb(251, 251, 251);
+            padding: 10px;
+        }
+        input:hover{background-color: antiquewhite;}
+        button{
+            color: black;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        button:hover{
+            background-color: rgb(76, 131, 76);
+        }
+        h2{
+            text-align: center;
+            margin: 20px;
+        }
+        footer{
+            display: flex;
+            width: 80vh;
+            background-color: #fff;
+            justify-content: center;
+        }
+        address{
+            text-align: center;
+            color: rgb(5, 7, 8);
+        }
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <h1>sign up page</h1>
+        <form>
+            <label for="first name">first name :<input type="text" name="" id="" placeholder="first name"></label>
+            <label for="last name">last name :<input type="text" name="" id="" placeholder="last name"></label>
+            <label for="email">email :<input type="email" name="" id="" placeholder="email"></label>
+            <label for="phone number">phone number :<input type="number" name="" id="" placeholder="number"></label>
+            <button type="submit">signup</button>
+        </form>
+        <h2>if already registered! click <a href="./login.html">here</a></h2>
+    </div>
+    <footer>
+        <address> 
+            <strong title="address">contact us at : 
+            mail : <a  title="mail" href="madhavgoyal2003@gmail.com">madhavgoyal2003@gmail.com</a>
+            cell:  <a href="tel:+9599">9599104076</a>
+        </address>
+    </footer>
+</body>
+</html>
